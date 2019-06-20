@@ -1,25 +1,46 @@
-p{
-	color: rgba(66, 42, 223, .20);
-	font-size:20px;
+body{
+	background: #F0F0F0;
 }
-input{
-	background = "purple"
+
+.square{
+	 width: 1300px;
+	 margin-left:15%;
+	 margin-top: 10%;
+	 background-color: white;
+	 border-top-left-radius: 50px;
+	 box-shadow:-34px 12px 73px -47px rgba(0,0,0,0.75);
 }
-div{
-	display: inline-block;
-	width: 163px;
-	height:150px;
-	margin:0;
-	border:0;
-	padding:0;
+
+.main{
+	display: grid;
+	grid-template-columns: 1fr 4fr ;
+}
+
+.sidebar{
+	display: grid;
+	height: 460px;
+}
+
+.products{
+	margin: 25px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:25px;
+	grid-column-gap: 25px;
+  grid-row-gap: 25px;
 
 }
-h6{
-	margin:0;
-	border:0;
-	padding:0'
+
+
+.product{
+	background: url("images/shoes.png");
+	background-size: 100%;
 }
-img {
-    max-width: 100%;
-    max-height: 100%;
+
+.sidebarlabel{
+	position: absolute;
+  top: 150;
+  left: 250;
+
+
 }
